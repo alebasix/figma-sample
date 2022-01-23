@@ -1,0 +1,40 @@
+ <article  class="article-form_article__background-color">
+     <div class="container" > 
+     <div class="row ">
+<h2 class="col mt-0 align-self-center text-center"  >Хотите веб-сайт?</h2>
+</div>
+<div class="row">
+<p class="col mt-5" class="article-form_anyblock__text-color"> Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+<div>
+<div class="row" >
+<form  class="my-5" action="index.html" method="get">
+  <div>
+                <input
+              autofocus
+              type="text"
+              name="firstname"
+              placeholder="First Name"
+              pattern="[/^[a-z ,.'-]+$/i]"
+              required
+          />
+          <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+              required
+            />
+          </div>
+            <div>
+            <input
+            type="textarea"
+            placeholder="Message"
+            >
+          </div>
+            <div class="row">
+            <!-- <button type="submit"></button> -->
+          </div>
+</form>
+</div>
+</div>
+    </article>
