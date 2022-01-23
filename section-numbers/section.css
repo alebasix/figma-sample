@@ -1,10 +1,13 @@
 
-.section-numbers_section {
-  width: 100%;
+.section-numbers_section__background-color {
   background-color: #34547a;
 }
 
 .section-numbers_img {
   max-width: 50px;
   max-height: 50px;
+}
+
+.section-numbers__anyblock_text-color {
+  color: white;
 }
