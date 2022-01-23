@@ -3,3 +3,8 @@
   width: 100%;
   background-color: #34547a;
 }
+
+.section-numbers_img {
+  max-width: 50px;
+  max-height: 50px;
+}
