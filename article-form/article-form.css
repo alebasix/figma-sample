@@ -1,0 +1,22 @@
+.article-form_article__background-color {
+  background-color: #eeeff1;
+}
+.article-form_anyblock__text-color {
+  color: #727272;
+}
+
+.article-form_anyblock__text-indent {
+  text-indent: 1.5rem;
+}
+
+.article-form_input-message__size {width: 510px;
+  height: 175px;
+}
+
+.article-form__input-button__color {
+  background-color:#34547A ;
+}
+
+.article-form__input-button__text-color {
+  color: white
+}

@@ -16,7 +16,7 @@
     />
     <link rel="stylesheet" href="./section-numbers/section.css" />
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./article-form/article-from.css">
+    <link rel="stylesheet" href="./article-form/article-form.css">
     <link rel="stylesheet" href="./bootstrap-framework-css/bootstrap-utilities.min.css">
     <title>Document</title>
   </head>
@@ -98,7 +98,7 @@
         </div>
       </div>
     </section>
-    <article  class="article-form_article__background-color">
+    <article  class="article-form_article__background-color pt-5">
       <div class="container" > 
       <div class="row ">
  <h2 class="col mt-0 align-self-center text-center"  >Хотите веб-сайт?</h2>
@@ -112,7 +112,7 @@
                  <input class="py-3 px-5"
                type="text"
                name="firstname"
-               placeholder="First Name"
+               placeholder="Ваше имя"
                pattern="[/^[a-z ,.'-]+$/i]"
                required
            />
@@ -121,20 +121,18 @@
            <input class="py-3 px-5"
                type="email"
                name="email"
-               placeholder="Email"
+               placeholder="Ваш e-mail"
                pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
                required
              />
            </div>
-             <div class="mt-2 d-none d-sm-block " >
-             <textarea
-             placeholder="Message"
+             <div class="mt-3 d-none d-sm-block " >
+             <input class="py-3 px-5 article-form_input-message__size"
+             placeholder="Сообщение"
              name="user_message"
-             rows="20" 
-             cols="60"
              >
            </div class="p-5">
-             <button class="px-5 py-4  mt-4" type="submit"></button>
+             <button class="px-5 py-3  mt-5 mb-5 article-form__input-button__color article-form__input-button__text-color  " type="submit">ОТПРАВИТЬ</button>
            </div>
  </form>
  </div>

@@ -1,40 +1,41 @@
- <article  class="article-form_article__background-color">
-     <div class="container" > 
-     <div class="row ">
-<h2 class="col mt-0 align-self-center text-center"  >Хотите веб-сайт?</h2>
-</div>
-<div class="row">
-<p class="col mt-5" class="article-form_anyblock__text-color"> Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-<div>
-<div class="row" >
-<form  class="my-5" action="index.html" method="get">
-  <div>
-                <input
-              autofocus
-              type="text"
-              name="firstname"
-              placeholder="First Name"
-              pattern="[/^[a-z ,.'-]+$/i]"
-              required
-          />
-          <input
-              type="email"
-              name="email"
-              placeholder="Email"
-              pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
-              required
-            />
+   <article  class="article-form_article__background-color">
+      <div class="container" > 
+      <div class="row ">
+ <h2 class="col mt-0 align-self-center text-center"  >Хотите веб-сайт?</h2>
+ </div>
+ <div class="row justify-content-evenly">
+ <p class="col-6 col-sm-5 text-center mt-3 article-form_anyblock__text-color article-form_anyblocl__text-indent">   Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+ </div>
+ <div class="row justify-content-evenly " >
+ <form  class="my-3 text-center " action="index.html" method="get">
+   <div class="d-inline-block">
+                 <input class="py-3 px-5"
+               type="text"
+               name="firstname"
+               placeholder="First Name"
+               pattern="[/^[a-z ,.'-]+$/i]"
+               required
+           />
           </div>
-            <div>
-            <input
-            type="textarea"
-            placeholder="Message"
-            >
-          </div>
-            <div class="row">
-            <!-- <button type="submit"></button> -->
-          </div>
-</form>
-</div>
-</div>
-    </article>
+          <div class="d-inline-block ms-0 ms-sm-2 mt-2 mt-sm-0 " >
+           <input class="py-3 px-5"
+               type="email"
+               name="email"
+               placeholder="Email"
+               pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+               required
+             />
+           </div>
+             <div class="mt-2 " >
+             <textarea
+             placeholder="Message"
+             name="user_message"
+             rows="20" 
+             cols="60"
+             > <--- Почему идет ввывод лайв сервера? ---> (идеально вставала)
+           </div class="p-5">
+             <button class="px-5 py-4  mt-4" type="submit"></button>
+           </div>
+ </form>
+ </div>
+ </div>
