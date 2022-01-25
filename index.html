@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./section-numbers/section.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./article-form/article-from.css">
+    <link rel="stylesheet" href="./bootstrap-framework-css/bootstrap-utilities.min.css">
     <title>Document</title>
   </head>
   <body>
@@ -30,8 +31,8 @@
             alt="picture"
           />
           <div class="d-flex flex-column mx-sm-3">
-            <h3 class="mb-1 section-numbers__anyblock_text-color">40+</h3>
-            <p class="my-2 section-numbers__anyblock_text-color">проектов</p>
+            <h3 class="mb-1 text-white">40+</h3>
+            <p class="my-2 text-white">проектов</p>
           </div>
         </div>
         <div
@@ -43,8 +44,8 @@
             alt="picture"
           />
           <div class="d-flex flex-column mx-sm-3">
-            <h3 class="mb-1 section-numbers__anyblock_text-color">40+</h3>
-            <p class="my-2 section-numbers__anyblock_text-color">проектов</p>
+            <h3 class="mb-1 text-white">40+</h3>
+            <p class="my-2 text-white">проектов</p>
           </div>
         </div>
         <div
@@ -56,8 +57,8 @@
             alt="picture"
           />
           <div class="d-flex flex-column mx-sm-3">
-            <h3 class="mb-1 section-numbers__anyblock_text-color">40+</h3>
-            <p class="my-2 section-numbers__anyblock_text-color">проектов</p>
+            <h3 class="mb-1 text-white">40+</h3>
+            <p class="my-2 text-white">проектов</p>
           </div>
         </div>
         <div
@@ -69,8 +70,8 @@
             alt="picture"
           />
           <div class="d-flex flex-column mx-sm-3">
-            <h3 class="mb-1 section-numbers__anyblock_text-color">40+</h3>
-            <p class="my-2 section-numbers__anyblock_text-color">проектов</p>
+            <h3 class="mb-1 text-white">40+</h3>
+            <p class="my-2 text-white">проектов</p>
           </div>
         </div>
         <div class="d-flex align-items-center">
@@ -79,23 +80,65 @@
             src="./assets-pictures/Group.svg"
             alt="picture"
           />
-          <div class="d-flex flex-column mx-sm-3">
-            <h3 class="mb-1 section-numbers__anyblock_text-color">40+</h3>
-            <p class="my-2 section-numbers__anyblock_text-color">проектов</p>
+          <div class="d-flex flex-column ms-2 mx-sm-3">
+            <h3 class="mb-1 text-white">40+</h3>
+            <p class="my-2 text-white">проектов</p>
           </div>
         </div>
-        <div class="d-flex align-items-center">
+        <div class="d-flex align-items-center ">
           <img
             class="section-numbers_img"
             src="./assets-pictures/Group.svg"
             alt="picture"
           />
-          <div class="d-flex flex-column mx-sm-3">
-            <h3 class="mb-1 section-numbers__anyblock_text-color">40+</h3>
-            <p class="my-2 section-numbers__anyblock_text-color">проектов</p>
+          <div class="d-flex flex-column ms-2  mx-sm-3">
+            <h3 class="mb-1 text-white">40+</h3>
+            <p class="my-2 text-white">проектов</p>
           </div>
         </div>
       </div>
     </section>
+    <article  class="article-form_article__background-color">
+      <div class="container" > 
+      <div class="row ">
+ <h2 class="col mt-0 align-self-center text-center"  >Хотите веб-сайт?</h2>
+ </div>
+ <div class="row justify-content-evenly">
+ <p class="col-6 col-sm-5 text-center mt-3 article-form_anyblock__text-color">   Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+ </div>
+ <div class="row justify-content-evenly " >
+ <form  class="my-3 text-center " action="index.html" method="get">
+   <div class="d-inline-block">
+                 <input class="py-3 px-5"
+               type="text"
+               name="firstname"
+               placeholder="First Name"
+               pattern="[/^[a-z ,.'-]+$/i]"
+               required
+           />
+          </div>
+          <div class="d-inline-block ms-0 ms-sm-2 mt-2 mt-sm-0 " >
+           <input class="py-3 px-5"
+               type="email"
+               name="email"
+               placeholder="Email"
+               pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$"
+               required
+             />
+           </div>
+             <div class="mt-2 d-none d-sm-block " >
+             <textarea
+             placeholder="Message"
+             name="user_message"
+             rows="20" 
+             cols="60"
+             >
+           </div class="p-5">
+             <button class="px-5 py-4  mt-4" type="submit"></button>
+           </div>
+ </form>
+ </div>
+ </div>
+     </article>
   </body>
 </html>
